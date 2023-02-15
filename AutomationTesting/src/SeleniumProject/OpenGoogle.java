@@ -14,6 +14,7 @@ public class OpenGoogle {
 		driver.get("https://www.google.com/");
 		driver.manage().window().maximize();
 		driver.findElement(By.xpath("//input[@title='Search']")).sendKeys("Hrithik roshan");
+		Added the google map feature
         driver.close();	
 	}
 
