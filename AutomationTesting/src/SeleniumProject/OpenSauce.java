@@ -15,7 +15,7 @@ public class OpenSauce {
 		driver.findElement(By.id("password")).sendKeys("secret_sauce");
 		driver.findElement(By.id("login-button")).click();
         driver.findElement(By.id("react-burger-menu-btn")).click();
-        driver.close();
+       // driver.close();
 
 	}
 
